@@ -7,7 +7,9 @@ Pod::Spec.new do |s|
   s.author   = { 'Tom Taylor' => 'tom@newspaperclub.com' }
   s.source   = { :git => 'https://github.com/newspaperclub/statsd-cocoa.git', :tag => s.version.to_s }
 
-  s.platform            = :osx, "10.7"
+  s.ios.deployment_target = '8.0'
+  s.osx.deployment_target = '10.7'
+
   s.requires_arc        = true
   s.source_files        = 'StatsD/StatsD.{h,m}'
   s.public_header_files = 'StatsD/StatsD.h'
