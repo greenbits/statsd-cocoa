@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'StatsD'
-  s.version  = '0.0.1'
+  s.version  = '0.0.2'
   s.homepage = 'https://github.com/newspaperclub/statsd-cocoa'
   s.summary  = 'StatsD client for Objective-C/Cocoa'
   s.license  = 'MIT'
